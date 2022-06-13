@@ -37,9 +37,9 @@ public class NacosConfig {
 
     @Value("${nacos.address}")
     private String address;
-    @Value("${nacos.address}")
+    @Value("${nacos.namespace}")
     private String namespace;
-    @Value("${nacos.address}")
+    @Value("${nacos.clusterName}")
     private String clusterName;
 
     @Bean
